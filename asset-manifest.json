@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/nameCheap-Demo/static/css/main.abd64e84.css",
+    "main.js": "/nameCheap-Demo/static/js/main.f861bd1f.js",
+    "index.html": "/nameCheap-Demo/index.html",
+    "main.abd64e84.css.map": "/nameCheap-Demo/static/css/main.abd64e84.css.map",
+    "main.f861bd1f.js.map": "/nameCheap-Demo/static/js/main.f861bd1f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.abd64e84.css",
+    "static/js/main.f861bd1f.js"
+  ]
+}
