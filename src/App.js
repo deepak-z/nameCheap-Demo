@@ -1,22 +1,23 @@
-import logo from './logo.svg';
+import React from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faLinkedin } from '@fortawesome/free-brands-svg-icons';
 import './App.css';
 
 function App() {
+  const linkedinUrl = 'https://in.linkedin.com/in/deepak-kumar-7812171ab'; // Replace with your actual LinkedIn URL
+
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          <a
+            href={linkedinUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <FontAwesomeIcon icon={faLinkedin} /> My LinkedIn Profile
+          </a>
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
       </header>
     </div>
   );
